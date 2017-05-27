@@ -342,7 +342,7 @@ export default class ImageGallery extends React.Component {
       currentIndex: nextIndex,
       offsetPercentage: 0,
       style: {
-        transition: `all ${this.props.slideDuration}ms ease-out`
+        transition: `opacity ${this.props.slideDuration}ms ease-out`
       }
     });
 
